@@ -1,0 +1,5 @@
+Log file created at: 2019/01/25 11:04:14
+Running on machine: localhost.localdomain
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0125 11:04:14.930318  7723 main.cc:9] hello error
+F0125 11:04:14.930433  7723 main.cc:10] hello fatal

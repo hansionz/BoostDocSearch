@@ -1,0 +1,4 @@
+Log file created at: 2019/01/25 10:29:41
+Running on machine: localhost.localdomain
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0125 10:29:41.106739  5496 index.cc:218] Check failed: common::FileUtil::Write(output_path, proto_data) 

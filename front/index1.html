@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset=" utf-8">
+    <title>新浪微博搜索框功能</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+ 
+        body {
+            font-size: 14px;
+        }
+ 
+        #box {
+            width: 600px;
+            margin: 40px auto;
+        }
+ 
+        input {
+            width: 240px;
+            height: 24px;
+            line-height: 24px;
+            border: 1px solid gray;
+            padding: 0 10px;
+            background: #eee;
+            outline: none;
+            /* box-shadow: inset 0 0 0px #999; */
+            /* box-shadow:阴影的设置 */
+        }
+ 
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            border: 1px solid #eb7350;
+            background: #fff;
+            outline: none;
+        }
+ 
+        #suggest {
+            display: none;
+            position: relative;
+            margin-top: -1px;
+            width: 240px;
+            padding-top: 1px;
+            border: 1px solid #369;
+            border-top: 0 none;
+            border-radius: 4px;
+            box-shadow: inset 0 0 2px #999;
+            overflow: hidden;
+        }
+ 
+        #suggest a {
+            display: block;
+            color: #f00;
+            height: 24px;
+            line-height: 24px;
+            text-decoration: none;
+            padding: 0 4px;
+        }
+ 
+        #suggest a:hover {
+            background: #eee;
+        }
+ 
+        #suggest a span {
+            color: #369;
+        }
+ 
+        .xiangguan1,
+        .xiangguan2 {
+            font-size: 14px;
+        }
+ 
+        .xiangguan1 dl dd,
+        .xiangguan2 dl dd {
+            font-size: 14px;
+            height: 30px;
+            line-height: 30px;
+            padding: 0 0 0 6px;
+            box-sizing: border-box;
+ 
+        }
+ 
+        .xiangguan1 dl dd:hover,
+        .xiangguan2 dl dd:hover {
+            font-size: 14px;
+            height: 30px;
+            line-height: 30px;
+            background: #eee;
+            color: #f00;
+            cursor: pointer;
+        }
+    </style>
+ 
+</head>
+ 
+<body>
+    <dl id="box">
+        <dt>
+            <input type="text" name="" id="in" placeholder="大家正在搜:我们来自同一个世界" />
+        </dt>
+        <dd id="suggest">
+            <a href="###">搜“
+                <span></span>”相关微博
+            </a>
+            <div class="xiangguan1">
+                <dl>
+                    <dd>我们相爱吧</dd>
+                    <dd>我们来同一个世界</dd>
+                    <dd>我们都有自己的梦想</dd>
+                    <dd>我们不曾放弃</dd>
+                </dl>
+            </div>
+            <a href="###">搜“
+                <span></span>”相关用户
+            </a>
+            <div class="xiangguan2">
+                <dl>
+                    <dd>我们相爱吧</dd>
+                    <dd>我们来同一个世界</dd>
+                    <dd>我们都有自己的梦想</dd>
+                    <dd>我们不曾放弃</dd>
+                </dl>
+            </div>
+        </dd>
+    </dl>
+    <script type="text/javascript">
+        window.onload = function () {
+            var obox = document.getElementById("box");
+            var obj = document.getElementById("in");
+            var osug = document.getElementById("suggest");
+            var oa = osug.getElementsByTagName("span");
+            obj.oninput = obj.onpropertychange = onchange;
+            obj.onblur = function () { disbox() } ;
+            function onchange() {
+                var txt = this.value;
+                var words = txt.length;
+                if (words == 0) {
+                    osug.style.display = "none";
+                }
+                else if (words > 0) {
+                    osug.style.display = "block";
+                    var limit
+                    if (words <= 8) {
+                        limit = txt
+                    }
+                    else {
+                        limit = txt.substring(0, 8) + "...";
+                    }
+                    for (var index = 0; len = oa.length, index < len; index++) {
+                        oa[index].innerHTML = limit;
+                    }
+                }
+            }
+        };
+        function disbox() {
+            document.getElementById("suggest").style.display = "none";
+        }
+    </script>
+</body>
+ 
+</html>
+
+

@@ -1,0 +1,117 @@
+Log file created at: 2019/02/06 18:50:54
+Running on machine: localhost.localdomain
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0206 18:50:54.674652  8870 server_main.cc:51] Index Load Done
+I0206 18:54:05.207775  8881 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1549450444
+query: "ss"
+I0206 18:54:05.208465  8881 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1549450445
+item {
+  title: "Date Time Input/Output"
+  desc: " std::stringstream ss; ss.exceptions(std::ios_base::failbit); ss.str(&quot;204-Jan-01&quot;); ss &gt;&gt; d; // throws bad_year exception AND sets failbit on stream A simple..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/date_time_io.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/date_time_io.html"
+}
+item {
+  title: "Posix Time"
+  desc: " // --&gt; false    Conversion to String      Syntax Description Example std::string to_simple_string(ptime) To YYYY-mmm-DD HH:MM:SS.fffffffff string where mmm ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/posix_time.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/posix_time.html"
+}
+item {
+  title: "Performance"
+  desc: "                                                                    std::stringstream with construction                                                  std:..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_lexical_cast/performance.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_lexical_cast/performance.html"
+}
+item {
+  title: "Library Reference"
+  desc: "     // Time duration to string -hh::mm::ss.fffffff. Example: 10:09:03.0123456.      std::string to_simple_string(time_duration td);     template&lt;typename ch..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/doxy.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/doxy.html"
+}
+item {
+  title: "Local Time"
+  desc: " \'offset\' takes the form of:              [+|-]hh[:mm[:ss]] {h=0-23, m/s=0-59} \'time\' and \'offset\' take the same form. \'start\' and \'end\' can be one of three ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/local_time.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/local_time.html"
+}
+item {
+  title: "General Usage Examples"
+  desc: "     }       //input streaming      std::stringstream ss(&quot;2004-Jan-1&quot;);     ss &gt;&gt; d3;     //date generator functions      date d5 = next_weekday(d4, Sunday);..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/examples/general_usage_examples.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/examples/general_usage_examples.html"
+}
+item {
+  title: "Gregorian"
+  desc: " stringstream ss(&quot;2002-Jan-01&quot;); ss &gt;&gt; d; \t   operator==, operator!=, operator&gt;, operator&lt;, operator&gt;=, operator&lt;= A full complement of comparison operators ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/gregorian.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/gregorian.html"
+}
+item {
+  title: "User\'s Guide"
+  desc: " the function below streams arbitrary durations to arbitrary basic_ostreams using the format:            [-]d/hh:mm:ss.cc             Where:                 ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/chrono/users_guide.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/chrono/users_guide.html"
+}
+item {
+  title: "How To"
+  desc: "      }      // Read the whole file into a string      stringstream ss;      ss &lt;&lt; ifs.rdbuf();      // Split the file content      char_separator&lt;char&gt; sep(..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/program_options/howto.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/program_options/howto.html"
+}
+item {
+  title: "Class template iso_format_base"
+  desc: "Separator for hh:mm:ss.  static charT fractional_time_sep_char();Preferred Separator for hh:mm:ss,decimal_fraction.  static bool is_component_sep(charT sep);..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/date_time/iso_format_base.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/date_time/iso_format_base.html"
+}
+item {
+  title: "Class iso_format_base<wchar_t>"
+  desc: "Separator for hh:mm:ss.  static wchar_t fractional_time_sep_char();Preferred Separator for hh:mm:ss,decimal_fraction.  static bool is_component_sep(wchar_t s..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/date_time/iso_format_bas_idp12553632.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/date_time/iso_format_bas_idp12553632.html"
+}
+item {
+  title: "Details"
+  desc: " std::stringstream ss(&quot;2000-FEB-29&quot;); ss &gt;&gt; d; //Feb 29th, 2000 std::wstringstream ws(&quot;2000-FEB-29&quot;); ws &gt;&gt; d; //Feb 29th, 2000 \t    Thanks to Bart Garst for..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/details.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/details.html"
+}
+item {
+  title: "Class template subsecond_duration"
+  desc: " Description subsecond_duration          public        construct/copy/destruct explicit subsecond_duration(boost::int64_t ss); subsecond_duration private mem..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/date_time/subsecond_duration.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/date_time/subsecond_duration.html"
+}
+item {
+  title: "Class template tz_db_base"
+  desc: " The format of these fields must be:   &quot;{+|-}hh:mm[:ss]&quot; &lt;- length-of-time format  Where the plus or minus is mandatory and the seconds are optional. Since s..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/date_time/tz_db_base.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/date_time/tz_db_base.html"
+}
+item {
+  title: "Function template str_from_delimited_time_duration"
+  desc: " Description Expected format for string is &quot;[-]h[h][:mm][:ss][.fff]&quot;. If the number of fractional digits provided is greater than the precision of the time d..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/date_time/str_from_delim_idp41802368.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/date_time/str_from_delim_idp41802368.html"
+}
+item {
+  title: "Function template parse_delimited_time_duration"
+  desc: " Description Expected format for string is &quot;[-]h[h][:mm][:ss][.fff]&quot;. If the number of fractional digits provided is greater than the precision of the time d..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/date_time/parse_delimite_idp29876608.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/date_time/parse_delimite_idp29876608.html"
+}
+item {
+  title: "Class template posix_time_zone_base"
+  desc: "   \'offset\' takes the form of: [+|-]hh[:mm[:ss]] {h=0-23, m/s=0-59}   \'time\' and \'offset\' take the same form. Time defaults=02:00:00   \'start\' and \'end\' can ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/local_time/posix_time_zone_base.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/local_time/posix_time_zone_base.html"
+}
+item {
+  title: "Function duration_from_string"
+  desc: " Description Expected format for string is &quot;[-]h[h][:mm][:ss][.fff]&quot;. A negative duration will be created if the first character in string is a \'-\', all othe..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/posix_time/duration_from_string.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/posix_time/duration_from_string.html"
+}

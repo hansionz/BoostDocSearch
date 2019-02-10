@@ -1,0 +1,6 @@
+Log file created at: 2019/01/25 10:28:45
+Running on machine: localhost.localdomain
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0125 10:28:45.259459  5496 index.cc:34] Index Build
+I0125 10:29:27.633047  5496 index.cc:55] Index Build Done
+F0125 10:29:41.106739  5496 index.cc:218] Check failed: common::FileUtil::Write(output_path, proto_data) 

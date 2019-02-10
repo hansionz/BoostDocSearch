@@ -1,0 +1,1898 @@
+Log file created at: 2019/01/25 21:01:04
+Running on machine: localhost.localdomain
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0125 21:01:04.294626 31600 server_main.cc:51] Index Load Done
+I0125 21:05:31.781392 31643 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548421531
+query: "6"
+I0125 21:05:31.782182 31643 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548421531
+I0125 21:05:33.569345 31646 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548421533
+query: "6"
+I0125 21:05:33.569365 31646 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548421533
+I0125 21:05:43.212144 31646 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548421542
+query: ""
+I0125 21:05:43.212175 31646 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548421543
+I0125 21:05:46.872611 31646 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548421546
+query: ""
+I0125 21:05:46.872671 31646 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548421546
+I0125 21:05:53.443222 31646 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548421553
+query: ""
+I0125 21:05:53.443262 31646 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548421553
+I0125 21:08:06.439970 31645 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548421686
+query: "filesystem"
+I0125 21:08:06.440645 31645 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548421686
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 21:10:41.939452 31643 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548421841
+query: "filesystem"
+I0125 21:10:41.951957 31643 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548421841
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 21:13:00.503222 31644 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548421980
+query: "filesystem"
+I0125 21:13:00.503660 31644 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548421980
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 21:34:49.049720 31644 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548423288
+query: "filesystem"
+I0125 21:34:49.050853 31644 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548423289
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 21:34:52.550850 31643 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548423292
+query: "filesystem"
+I0125 21:34:52.551060 31643 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548423292
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 21:40:45.411746 31643 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548423645
+query: "filesystem"
+I0125 21:40:45.412019 31643 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548423645
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 21:42:12.976825 31644 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548423732
+query: "filesystem"
+I0125 21:42:12.977092 31644 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548423732
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 21:58:44.335902 31646 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548424723
+query: "filesystem"
+I0125 21:58:44.344313 31646 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548424724
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 22:00:19.553030 31643 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548424819
+query: "filesystem"
+I0125 22:00:19.553292 31643 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548424819
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 22:05:17.284713 31646 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548425116
+query: "filesystem"
+I0125 22:05:17.285022 31646 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548425117
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 22:05:29.585652 31646 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548425129
+query: ""
+I0125 22:05:29.585763 31646 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548425129
+I0125 22:05:36.370368 31646 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548425136
+query: "filesystem"
+I0125 22:05:36.370898 31646 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548425136
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 22:08:26.138883 31646 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548425305
+query: "filesystem"
+I0125 22:08:26.139267 31646 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548425306
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 22:08:36.949471 31646 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548425316
+query: ""
+I0125 22:08:36.949524 31646 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548425316
+I0125 22:08:39.970705 31646 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548425319
+query: "fout"
+I0125 22:08:39.970751 31646 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548425319
+I0125 22:08:46.783103 31643 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548425326
+query: ""
+I0125 22:08:46.783154 31643 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548425326
+I0125 22:08:49.833122 31643 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548425329
+query: "system"
+I0125 22:08:49.833148 31643 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548425329
+I0125 22:09:05.241668 31645 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548425344
+query: ""
+I0125 22:09:05.241753 31645 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548425345
+I0125 22:09:07.988641 31645 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548425347
+query: ""
+I0125 22:09:07.988678 31645 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548425347
+I0125 22:09:36.159590 31645 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548425375
+query: "filesystem"
+I0125 22:09:36.160024 31645 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548425376
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 22:12:53.414319 31645 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548425569
+query: "boost"
+I0125 22:12:53.489033 31645 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548425569
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Units Reference Dimensions Reference SI System Reference CGS System Reference Trigonometry and Angle Syst..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_units/Reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_units/Reference.html"
+}
+item {
+  title: "Synchronization"
+  desc: " You need just replace std         and ting by boost.                Mutex,         Lock, Condition Variable Rationale adds rationale for the design         ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/synchronization.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/synchronization.html"
+}
+item {
+  title: "User\'s Guide"
+  desc: " User\'s Guide Home Libraries People FAQ More User\'s Guide The       Accumulators Framework The       Statistical Accumulators Library       This section desc..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/accumulators/user_s_guide.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/accumulators/user_s_guide.html"
+}
+item {
+  title: "Users\' Guide"
+  desc: "      Getting Started Installing         Proto Naming         Conventions Hello         World Hello         Calculator Installing         Proto           Get..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/proto/users_guide.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/proto/users_guide.html"
+}
+item {
+  title: "Library Reference"
+  desc: "    Date Time Reference Header &lt;boost/date_time/adjust_functors.hpp&gt; Header &lt;boost/date_time/c_local_time_adjustor.hpp&gt; Header &lt;boost/date_time/c_time.hpp&gt; H..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/doxy.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/doxy.html"
+}
+item {
+  title: "User\'s Guide"
+  desc: "  Installing         Chrono           Getting           Boost.Chrono                     Boost.Chrono is in the latest Boost release           in the folder ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/chrono/users_guide.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/chrono/users_guide.html"
+}
+item {
+  title: "Boost.Interprocess Reference"
+  desc: " Boost.Interprocess Reference Home Libraries People FAQ More Boost.Interprocess Reference Header &lt;boost/interprocess/allocators/adaptive_pool.hpp&gt; Header &lt;bo..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_interprocess_reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_interprocess_reference.html"
+}
+item {
+  title: "Using and building the library"
+  desc: " Using and building the library Home Libraries People FAQ More Using and building the library Configuration Limitations       Boost.Thread is configured foll..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/build.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/build.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Accumulators Framework Reference Statistics Library Reference Numeric Operators Library Reference Accumul..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/accumulators/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/accumulators/reference.html"
+}
+item {
+  title: "Thread Management"
+  desc: " Thread Management Home Libraries People FAQ More Thread Management Synopsis Tutorial Class thread Namespace this_thread Class thread_group EXTENSION Synopsi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/thread_management.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/thread_management.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Concepts Classes Functions Header &lt;boost/proto/args.hpp&gt; Header &lt;boost/proto/core.hpp&gt; Header &lt;boost/prot..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/proto/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/proto/reference.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference  Header &lt;boost/chrono/include.hpp&gt; Included on the C++11 Recommendation Chrono I/O V1 Chrono I/O V2 Chron..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/chrono/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/chrono/reference.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference  Header &lt;boost/ratio/config.hpp&gt; C++0x Recommendation Ratio I/O Rational Constant Header &lt;boost/ratio/con..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/ratio/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/ratio/reference.html"
+}
+item {
+  title: "Allocators, containers and memory allocation algorithms"
+  desc: " containers     and memory allocation algorithms Introduction       to Interprocess allocators Segregated       storage node allocators Adaptive       pool n..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/allocators_containers.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/allocators_containers.html"
+}
+item {
+  title: "Tutorial"
+  desc: " Tutorial Home Libraries People FAQ More Tutorial Point-to-Point communication Collective operations Managing communicators Separating structure from content..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " Monte-Carlo integration)                            games (non-deterministic enemy behavior)                            security (key generation)           ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_random/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_random/reference.html"
+}
+item {
+  title: "Synchronization mechanisms"
+  desc: "         Boost.Threads implements these synchronization         utilities between threads inside the same process. Boost.Interprocess         implements simi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/synchronization_mechanisms.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/synchronization_mechanisms.html"
+}
+item {
+  title: "History"
+  desc: "0 - boost 1.53            Deprecated features:      Warning         Deprecated features since boost 1.53 will be available only until boost 1.58.            ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/changes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/changes.html"
+}
+item {
+  title: "Examples"
+  desc: "                boost_asio/example/allocation/server.cpp                Buffers            This example demonstrates how to create reference counted buffers ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/examples.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/examples.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " Boost.Interprocess offers           some basic classes to create shared memory objects and file mappings and           map those mappable classes to the pro..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Header &lt;boost/intrusive/any_hook.hpp&gt; Header &lt;boost/intrusive/avl_set.hpp&gt; Header &lt;boost/intrusive/avl_se..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/intrusive/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/intrusive/reference.html"
+}
+item {
+  title: "Chapter 13. Boost.Interprocess"
+  desc: " Boost.Interprocess Home Libraries People FAQ More Chapter 13. Boost.Interprocess Ion Gaztanaga Copyright  2005-2012 Ion Gaztanaga         Distributed under ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess.html"
+}
+item {
+  title: "Emulations"
+  desc: " Boost.Thread relays on a partial         simulation, it declares the function as private without definition.        private:   thread(thread &amp;);         The..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/emulations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/emulations.html"
+}
+item {
+  title: "Examples"
+  desc: " Examples Home Libraries People FAQ More Examples Dimension Example Unit Example Quantity Example Kitchen Sink       Example using SI units Conversion Exampl..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_units/Examples.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_units/Examples.html"
+}
+item {
+  title: "User\'s Guide"
+  desc: " User\'s Guide Home Libraries People FAQ More User\'s Guide Getting Started Tutorial Example External Resources Getting Started Installing         Ratio Instal..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/ratio/users_guide.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/ratio/users_guide.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Header &lt;boost/mpi.hpp&gt; Header &lt;boost/mpi/allocator.hpp&gt; Header &lt;boost/mpi/collectives.hpp&gt; Header &lt;boost/..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi/reference.html"
+}
+item {
+  title: "Chapter 14. Boost.Intrusive"
+  desc: " Boost.Intrusive Home Libraries People FAQ More Chapter 14. Boost.Intrusive Olaf Krzikalla Ion Gaztanaga Copyright  2005 Olaf Krzikalla Copyright  2006-2012 ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/intrusive.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/intrusive.html"
+}
+item {
+  title: "TR1 By Subject"
+  desc: " #include &lt;boost/tr1/functional.hpp&gt;         or        #include &lt;functional&gt;         The Ref library is a small library that is useful for passing references..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_tr1/subject_list.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_tr1/subject_list.html"
+}
+item {
+  title: "Using Boost.Asio"
+  desc: " Using Boost.Asio Home Libraries People FAQ More Using Boost.Asio       Supported       Platforms            The following platforms and compilers have been ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/using.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/using.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Header &lt;boost/algorithm/string.hpp&gt; Header &lt;boost/algorithm/string/case_conv.hpp&gt; Header &lt;boost/algorithm..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/string_algo/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/string_algo/reference.html"
+}
+item {
+  title: "Chapter 22. Boost.Proto"
+  desc: " Boost.Proto Home Libraries People FAQ More Chapter 22. Boost.Proto Eric Niebler Copyright  2008 Eric Niebler         Distributed under the Boost Software Li..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/proto.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/proto.html"
+}
+item {
+  title: "User\'s Guide"
+  desc: ") Dynamic xpressive is a bit like Boost.Regex.         In fact, xpressive\'s interface should be familiar to anyone who has used         Boost.Regex. xpressiv..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/xpressive/user_s_guide.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/xpressive/user_s_guide.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " Notes Notes         for Windows users Notes         for Linux users Notes         for Windows users COM           Initialization Shared           memory emu..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Header &lt;boost/xpressive/basic_regex.hpp&gt; Header &lt;boost/xpressive/match_results.hpp&gt; Header &lt;boost/xpressi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/xpressive/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/xpressive/reference.html"
+}
+item {
+  title: "Overview"
+  desc: " Overview Home Libraries People FAQ More Overview Concepts Boost.Jam Language Configuration Invocation Declaring Targets Projects The Build Process       Thi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Part I. The Boost C++ Libraries (BoostBook Subset)"
+  desc: " The Boost C++ Libraries (BoostBook Subset) Home Libraries People FAQ More Part I. The Boost C++ Libraries (BoostBook Subset) Table of Contents 1. Boost.Accu..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/libraries.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/libraries.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: " Architecture and internals Home Libraries People FAQ More Architecture and internals Basic guidelines From       the memory algorithm to the managed segment..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+item {
+  title: "Reference"
+  desc: " AUTO_TPL         The BOOST_AUTO macro emulates         the proposed auto keyword in         C++.                Usage        BOOST_AUTO(var,expr) BOOST_AUTO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/typeof/refe.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/typeof/refe.html"
+}
+item {
+  title: "Chapter 9. Boost.Foreach"
+  desc: " Boost.Foreach Home Libraries People FAQ More Chapter 9. Boost.Foreach Eric Niebler Copyright  2004 Eric Niebler         Distributed under the Boost Software..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/foreach.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/foreach.html"
+}
+item {
+  title: "Ownership smart pointers"
+  desc: " Boost offers a wide range of such type of pointers: intrusive_ptr&lt;&gt;,       scoped_ptr&lt;&gt;,       shared_ptr&lt;&gt;...            When building complex shared memor..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/interprocess_smart_ptr.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/interprocess_smart_ptr.html"
+}
+item {
+  title: "Examples"
+  desc: "12    */   #include &quot;boost/date_time/gregorian/gregorian.hpp&quot;   #include &lt;iostream&gt;   #include &lt;string&gt;   int   main()    {     using namespace boost::gregor..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/examples.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/examples.html"
+}
+item {
+  title: "Tutorial"
+  desc: "   // Signal with no arguments and a void return value   boost::signals2::signal&lt;void ()&gt; sig;   // Connect a HelloWorld slot   HelloWorld hello;   sig.conne..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals2/tutorial.html"
+}
+item {
+  title: "Chapter 19. Boost.MPI"
+  desc: " Boost.MPI Home Libraries People FAQ More Chapter 19. Boost.MPI Douglas Gregor Matthias Troyer Copyright  2005-2007 Douglas Gregor,       Matthias Troyer, Tr..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi.html"
+}
+item {
+  title: "Boost.Container Header Reference"
+  desc: " Boost.Container Header Reference Home Libraries People FAQ More Boost.Container Header Reference Header &lt;boost/container/allocator_traits.hpp&gt; Header &lt;boost..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_container_header_reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_container_header_reference.html"
+}
+item {
+  title: "Signals2 API Changes"
+  desc: " Signals2 API Changes Home Libraries People FAQ More Signals2 API Changes Porting from Boost.Signals to Boost.Signals2 Signals2 API Development Porting from ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals2/api_changes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals2/api_changes.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Header &lt;boost/signals2.hpp&gt; Header &lt;boost/signals2/connection.hpp&gt; Header &lt;boost/signals2/deconstruct.hpp..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals2/reference.html"
+}
+item {
+  title: "Struct template multiply_typeof_helper<boost::lambda::lambda_functor< Arg >, boost::units::absolute< boost::units::unit< Dim, System > >>"
+  desc: " Struct template multiply_typeof_helper&lt;boost::lambda::lambda_functor&lt; Arg &gt;, boost::units::absolute&lt; boost::units::unit&lt; Dim, System &gt; &gt;&gt; Home Libraries Peo..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109603536.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109603536.html"
+}
+item {
+  title: "Struct template multiply_typeof_helper<boost::units::absolute< boost::units::unit< Dim, System > >, boost::lambda::lambda_functor< Arg >>"
+  desc: " Struct template multiply_typeof_helper&lt;boost::units::absolute&lt; boost::units::unit&lt; Dim, System &gt; &gt;, boost::lambda::lambda_functor&lt; Arg &gt;&gt; Home Libraries Peo..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109606320.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109606320.html"
+}
+item {
+  title: "Revision History"
+  desc: "3 / Boost 1.53                Fixed some 64-to-32-bit conversion warnings (#7459).                    Fixed some small errors in documentation and comments (..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/history.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/history.html"
+}
+item {
+  title: "Tutorial"
+  desc: " Tutorial Home Libraries People FAQ More Tutorial Basic Usage Advanced Topics Basic Usage A discriminated union container on some set of types is defined by ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/variant/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/variant/tutorial.html"
+}
+item {
+  title: "The Boost C++ Libraries BoostBook Documentation Subset"
+  desc: " The Boost C++ Libraries BoostBook Documentation Subset Home Libraries People FAQ More The Boost C++ Libraries BoostBook Documentation Subset Table of Conten..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/index.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/index.html"
+}
+item {
+  title: "Macro BOOST_PROTO_LOCAL_ITERATE"
+  desc: " Macro BOOST_PROTO_LOCAL_ITERATE Home Libraries People FAQ More Macro BOOST_PROTO_LOCAL_ITERATE BOOST_PROTO_LOCAL_ITERATE  Vertical repetition of a user-supp..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/BOOST_PROTO_LOCAL_ITERATE.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/BOOST_PROTO_LOCAL_ITERATE.html"
+}
+item {
+  title: "Tutorial"
+  desc: " Compatibility Note Boost.Signals has two syntactical forms: the preferred form and the compatibility form. The preferred form fits more closely with the C++..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Header &lt;boost/program_options/cmdline.hpp&gt; Header &lt;boost/program_options/config.hpp&gt; Header &lt;boost/progra..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/program_options/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/program_options/reference.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: " let\'s see how can we do this using Boost.Interprocess:          Header           To manage shared memory, you just need to include the following header:    ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Class template map"
+  desc: " Class template map Home Libraries People FAQ More Class template map boost::container::map Synopsis // In header: &lt;boost/container/map.hpp&gt; template&lt;typenam..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/map.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/map.html"
+}
+item {
+  title: "Chapter 7. Boost.Container"
+  desc: " Boost.Container Home Libraries People FAQ More Chapter 7. Boost.Container Ion Gaztanaga Copyright  2009-2012 Ion       Gaztanaga         Distributed under t..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/container.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/container.html"
+}
+item {
+  title: "Details"
+  desc: " You can find more information at: Boost Wiki GDTL Start Page.         Date References Time References Other C/C++ Libraries JAVA Date-Time Libraries Scripti..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/details.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/details.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Concepts Header &lt;boost/variant.hpp&gt; Header &lt;boost/variant/variant_fwd.hpp&gt; Header &lt;boost/variant/variant...."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/variant/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/variant/reference.html"
+}
+item {
+  title: "How the library works"
+  desc: " How the library works Home Libraries People FAQ More How the library works       Boost.Move is based on macros that are expanded       to true rvalue refere..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/move/how_the_library_works.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/move/how_the_library_works.html"
+}
+item {
+  title: "Python Bindings"
+  desc: " Python Bindings Home Libraries People FAQ More Python Bindings Quickstart Transmitting User-Defined Data Collectives Skeleton/Content Mechanism C++/Python M..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi/python.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi/python.html"
+}
+item {
+  title: "buffer"
+  desc: " buffer Home Libraries People FAQ More buffer           The boost::asio::buffer function is used to create a buffer         object to represent raw memory, a..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/reference/buffer.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/reference/buffer.html"
+}
+item {
+  title: "Other considerations and tips"
+  desc: "                The emulation mode can be forced on the compilers that don\'t use it by default         by defining the BOOST_TYPEOF_COMPLIANT         symbol:..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/typeof/other.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/typeof/other.html"
+}
+item {
+  title: "Class template flat_map"
+  desc: " Class template flat_map Home Libraries People FAQ More Class template flat_map boost::container::flat_map Synopsis // In header: &lt;boost/container/flat_map.h..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/flat_map.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/flat_map.html"
+}
+item {
+  title: "Class template flat_multimap"
+  desc: " Class template flat_multimap Home Libraries People FAQ More Class template flat_multimap boost::container::flat_multimap Synopsis // In header: &lt;boost/conta..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/flat_multimap.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/flat_multimap.html"
+}
+item {
+  title: "Class template multimap"
+  desc: " Class template multimap Home Libraries People FAQ More Class template multimap boost::container::multimap Synopsis // In header: &lt;boost/container/map.hpp&gt; t..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/multimap.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/multimap.html"
+}
+item {
+  title: "Customizing Boost.Interprocess"
+  desc: " Customizing Boost.Interprocess Home Libraries People FAQ More Customizing Boost.Interprocess Writing       a new shared memory allocation algorithm Building..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/customizing_interprocess.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/customizing_interprocess.html"
+}
+item {
+  title: "Chapter 29. Boost String Algorithms Library"
+  desc: " Boost String Algorithms Library Home Libraries People FAQ More Chapter 29. Boost String Algorithms Library Pavol Droba Copyright  2002-2004 Pavol Droba Use,..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/string_algo.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/string_algo.html"
+}
+item {
+  title: "Extensibility"
+  desc: " Extensibility Home Libraries People FAQ More Extensibility       If we want to use BOOST_FOREACH to iterate over some new       collection type, we must &quot;te..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/foreach/extensibility.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/foreach/extensibility.html"
+}
+item {
+  title: "Appendices"
+  desc: "53            Deprecated:                        The chrono i/o version included in Boost.Chrono 1.2.x has been completly               refactored in version..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/chrono/appendices.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/chrono/appendices.html"
+}
+item {
+  title: "Macro BOOST_PROTO_REPEAT_FROM_TO"
+  desc: " Macro BOOST_PROTO_REPEAT_FROM_TO Home Libraries People FAQ More Macro BOOST_PROTO_REPEAT_FROM_TO BOOST_PROTO_REPEAT_FROM_TO  Repeatedly invoke the specified..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/BOOST_PROTO_REPEAT_FROM_TO.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/BOOST_PROTO_REPEAT_FROM_TO.html"
+}
+item {
+  title: "Struct template multiply_typeof_helper<boost::lambda::lambda_functor< Arg >, boost::units::unit< Dim, System >>"
+  desc: " Struct template multiply_typeof_helper&lt;boost::lambda::lambda_functor&lt; Arg &gt;, boost::units::unit&lt; Dim, System &gt;&gt; Home Libraries People FAQ More Struct templa..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109598480.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109598480.html"
+}
+item {
+  title: "Struct template divide_typeof_helper<boost::units::unit< Dim, System >, boost::lambda::lambda_functor< Arg >>"
+  desc: " Struct template divide_typeof_helper&lt;boost::units::unit&lt; Dim, System &gt;, boost::lambda::lambda_functor&lt; Arg &gt;&gt; Home Libraries People FAQ More Struct template..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/divide_typeof_idp109595952.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/divide_typeof_idp109595952.html"
+}
+item {
+  title: "Struct template multiply_typeof_helper<boost::units::unit< Dim, System >, boost::lambda::lambda_functor< Arg >>"
+  desc: " Struct template multiply_typeof_helper&lt;boost::units::unit&lt; Dim, System &gt;, boost::lambda::lambda_functor&lt; Arg &gt;&gt; Home Libraries People FAQ More Struct templa..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109593408.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109593408.html"
+}
+item {
+  title: "Struct template divide_typeof_helper<boost::lambda::lambda_functor< Arg >, boost::units::unit< Dim, System >>"
+  desc: " Struct template divide_typeof_helper&lt;boost::lambda::lambda_functor&lt; Arg &gt;, boost::units::unit&lt; Dim, System &gt;&gt; Home Libraries People FAQ More Struct template..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/divide_typeof_idp109601008.html"
+  jum
+I0125 22:13:03.001478 31644 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548425582
+query: "boost"
+I0125 22:13:03.048485 31644 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548425582
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Units Reference Dimensions Reference SI System Reference CGS System Reference Trigonometry and Angle Syst..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_units/Reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_units/Reference.html"
+}
+item {
+  title: "Synchronization"
+  desc: " You need just replace std         and ting by boost.                Mutex,         Lock, Condition Variable Rationale adds rationale for the design         ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/synchronization.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/synchronization.html"
+}
+item {
+  title: "User\'s Guide"
+  desc: " User\'s Guide Home Libraries People FAQ More User\'s Guide The       Accumulators Framework The       Statistical Accumulators Library       This section desc..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/accumulators/user_s_guide.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/accumulators/user_s_guide.html"
+}
+item {
+  title: "Users\' Guide"
+  desc: "      Getting Started Installing         Proto Naming         Conventions Hello         World Hello         Calculator Installing         Proto           Get..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/proto/users_guide.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/proto/users_guide.html"
+}
+item {
+  title: "Library Reference"
+  desc: "    Date Time Reference Header &lt;boost/date_time/adjust_functors.hpp&gt; Header &lt;boost/date_time/c_local_time_adjustor.hpp&gt; Header &lt;boost/date_time/c_time.hpp&gt; H..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/doxy.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/doxy.html"
+}
+item {
+  title: "User\'s Guide"
+  desc: "  Installing         Chrono           Getting           Boost.Chrono                     Boost.Chrono is in the latest Boost release           in the folder ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/chrono/users_guide.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/chrono/users_guide.html"
+}
+item {
+  title: "Boost.Interprocess Reference"
+  desc: " Boost.Interprocess Reference Home Libraries People FAQ More Boost.Interprocess Reference Header &lt;boost/interprocess/allocators/adaptive_pool.hpp&gt; Header &lt;bo..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_interprocess_reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_interprocess_reference.html"
+}
+item {
+  title: "Using and building the library"
+  desc: " Using and building the library Home Libraries People FAQ More Using and building the library Configuration Limitations       Boost.Thread is configured foll..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/build.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/build.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Accumulators Framework Reference Statistics Library Reference Numeric Operators Library Reference Accumul..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/accumulators/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/accumulators/reference.html"
+}
+item {
+  title: "Thread Management"
+  desc: " Thread Management Home Libraries People FAQ More Thread Management Synopsis Tutorial Class thread Namespace this_thread Class thread_group EXTENSION Synopsi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/thread_management.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/thread_management.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Concepts Classes Functions Header &lt;boost/proto/args.hpp&gt; Header &lt;boost/proto/core.hpp&gt; Header &lt;boost/prot..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/proto/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/proto/reference.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference  Header &lt;boost/chrono/include.hpp&gt; Included on the C++11 Recommendation Chrono I/O V1 Chrono I/O V2 Chron..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/chrono/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/chrono/reference.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference  Header &lt;boost/ratio/config.hpp&gt; C++0x Recommendation Ratio I/O Rational Constant Header &lt;boost/ratio/con..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/ratio/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/ratio/reference.html"
+}
+item {
+  title: "Allocators, containers and memory allocation algorithms"
+  desc: " containers     and memory allocation algorithms Introduction       to Interprocess allocators Segregated       storage node allocators Adaptive       pool n..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/allocators_containers.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/allocators_containers.html"
+}
+item {
+  title: "Tutorial"
+  desc: " Tutorial Home Libraries People FAQ More Tutorial Point-to-Point communication Collective operations Managing communicators Separating structure from content..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " Monte-Carlo integration)                            games (non-deterministic enemy behavior)                            security (key generation)           ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_random/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_random/reference.html"
+}
+item {
+  title: "Synchronization mechanisms"
+  desc: "         Boost.Threads implements these synchronization         utilities between threads inside the same process. Boost.Interprocess         implements simi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/synchronization_mechanisms.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/synchronization_mechanisms.html"
+}
+item {
+  title: "History"
+  desc: "0 - boost 1.53            Deprecated features:      Warning         Deprecated features since boost 1.53 will be available only until boost 1.58.            ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/changes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/changes.html"
+}
+item {
+  title: "Examples"
+  desc: "                boost_asio/example/allocation/server.cpp                Buffers            This example demonstrates how to create reference counted buffers ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/examples.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/examples.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " Boost.Interprocess offers           some basic classes to create shared memory objects and file mappings and           map those mappable classes to the pro..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Header &lt;boost/intrusive/any_hook.hpp&gt; Header &lt;boost/intrusive/avl_set.hpp&gt; Header &lt;boost/intrusive/avl_se..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/intrusive/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/intrusive/reference.html"
+}
+item {
+  title: "Chapter 13. Boost.Interprocess"
+  desc: " Boost.Interprocess Home Libraries People FAQ More Chapter 13. Boost.Interprocess Ion Gaztanaga Copyright  2005-2012 Ion Gaztanaga         Distributed under ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess.html"
+}
+item {
+  title: "Emulations"
+  desc: " Boost.Thread relays on a partial         simulation, it declares the function as private without definition.        private:   thread(thread &amp;);         The..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/emulations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/thread/emulations.html"
+}
+item {
+  title: "Examples"
+  desc: " Examples Home Libraries People FAQ More Examples Dimension Example Unit Example Quantity Example Kitchen Sink       Example using SI units Conversion Exampl..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_units/Examples.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_units/Examples.html"
+}
+item {
+  title: "User\'s Guide"
+  desc: " User\'s Guide Home Libraries People FAQ More User\'s Guide Getting Started Tutorial Example External Resources Getting Started Installing         Ratio Instal..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/ratio/users_guide.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/ratio/users_guide.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Header &lt;boost/mpi.hpp&gt; Header &lt;boost/mpi/allocator.hpp&gt; Header &lt;boost/mpi/collectives.hpp&gt; Header &lt;boost/..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi/reference.html"
+}
+item {
+  title: "Chapter 14. Boost.Intrusive"
+  desc: " Boost.Intrusive Home Libraries People FAQ More Chapter 14. Boost.Intrusive Olaf Krzikalla Ion Gaztanaga Copyright  2005 Olaf Krzikalla Copyright  2006-2012 ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/intrusive.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/intrusive.html"
+}
+item {
+  title: "TR1 By Subject"
+  desc: " #include &lt;boost/tr1/functional.hpp&gt;         or        #include &lt;functional&gt;         The Ref library is a small library that is useful for passing references..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_tr1/subject_list.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_tr1/subject_list.html"
+}
+item {
+  title: "Using Boost.Asio"
+  desc: " Using Boost.Asio Home Libraries People FAQ More Using Boost.Asio       Supported       Platforms            The following platforms and compilers have been ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/using.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/using.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Header &lt;boost/algorithm/string.hpp&gt; Header &lt;boost/algorithm/string/case_conv.hpp&gt; Header &lt;boost/algorithm..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/string_algo/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/string_algo/reference.html"
+}
+item {
+  title: "Chapter 22. Boost.Proto"
+  desc: " Boost.Proto Home Libraries People FAQ More Chapter 22. Boost.Proto Eric Niebler Copyright  2008 Eric Niebler         Distributed under the Boost Software Li..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/proto.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/proto.html"
+}
+item {
+  title: "User\'s Guide"
+  desc: ") Dynamic xpressive is a bit like Boost.Regex.         In fact, xpressive\'s interface should be familiar to anyone who has used         Boost.Regex. xpressiv..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/xpressive/user_s_guide.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/xpressive/user_s_guide.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " Notes Notes         for Windows users Notes         for Linux users Notes         for Windows users COM           Initialization Shared           memory emu..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Header &lt;boost/xpressive/basic_regex.hpp&gt; Header &lt;boost/xpressive/match_results.hpp&gt; Header &lt;boost/xpressi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/xpressive/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/xpressive/reference.html"
+}
+item {
+  title: "Overview"
+  desc: " Overview Home Libraries People FAQ More Overview Concepts Boost.Jam Language Configuration Invocation Declaring Targets Projects The Build Process       Thi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Part I. The Boost C++ Libraries (BoostBook Subset)"
+  desc: " The Boost C++ Libraries (BoostBook Subset) Home Libraries People FAQ More Part I. The Boost C++ Libraries (BoostBook Subset) Table of Contents 1. Boost.Accu..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/libraries.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/libraries.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: " Architecture and internals Home Libraries People FAQ More Architecture and internals Basic guidelines From       the memory algorithm to the managed segment..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+item {
+  title: "Reference"
+  desc: " AUTO_TPL         The BOOST_AUTO macro emulates         the proposed auto keyword in         C++.                Usage        BOOST_AUTO(var,expr) BOOST_AUTO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/typeof/refe.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/typeof/refe.html"
+}
+item {
+  title: "Chapter 9. Boost.Foreach"
+  desc: " Boost.Foreach Home Libraries People FAQ More Chapter 9. Boost.Foreach Eric Niebler Copyright  2004 Eric Niebler         Distributed under the Boost Software..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/foreach.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/foreach.html"
+}
+item {
+  title: "Ownership smart pointers"
+  desc: " Boost offers a wide range of such type of pointers: intrusive_ptr&lt;&gt;,       scoped_ptr&lt;&gt;,       shared_ptr&lt;&gt;...            When building complex shared memor..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/interprocess_smart_ptr.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/interprocess_smart_ptr.html"
+}
+item {
+  title: "Examples"
+  desc: "12    */   #include &quot;boost/date_time/gregorian/gregorian.hpp&quot;   #include &lt;iostream&gt;   #include &lt;string&gt;   int   main()    {     using namespace boost::gregor..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/examples.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/examples.html"
+}
+item {
+  title: "Tutorial"
+  desc: "   // Signal with no arguments and a void return value   boost::signals2::signal&lt;void ()&gt; sig;   // Connect a HelloWorld slot   HelloWorld hello;   sig.conne..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals2/tutorial.html"
+}
+item {
+  title: "Chapter 19. Boost.MPI"
+  desc: " Boost.MPI Home Libraries People FAQ More Chapter 19. Boost.MPI Douglas Gregor Matthias Troyer Copyright  2005-2007 Douglas Gregor,       Matthias Troyer, Tr..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi.html"
+}
+item {
+  title: "Boost.Container Header Reference"
+  desc: " Boost.Container Header Reference Home Libraries People FAQ More Boost.Container Header Reference Header &lt;boost/container/allocator_traits.hpp&gt; Header &lt;boost..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_container_header_reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_container_header_reference.html"
+}
+item {
+  title: "Signals2 API Changes"
+  desc: " Signals2 API Changes Home Libraries People FAQ More Signals2 API Changes Porting from Boost.Signals to Boost.Signals2 Signals2 API Development Porting from ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals2/api_changes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals2/api_changes.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Header &lt;boost/signals2.hpp&gt; Header &lt;boost/signals2/connection.hpp&gt; Header &lt;boost/signals2/deconstruct.hpp..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals2/reference.html"
+}
+item {
+  title: "Struct template multiply_typeof_helper<boost::lambda::lambda_functor< Arg >, boost::units::absolute< boost::units::unit< Dim, System > >>"
+  desc: " Struct template multiply_typeof_helper&lt;boost::lambda::lambda_functor&lt; Arg &gt;, boost::units::absolute&lt; boost::units::unit&lt; Dim, System &gt; &gt;&gt; Home Libraries Peo..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109603536.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109603536.html"
+}
+item {
+  title: "Struct template multiply_typeof_helper<boost::units::absolute< boost::units::unit< Dim, System > >, boost::lambda::lambda_functor< Arg >>"
+  desc: " Struct template multiply_typeof_helper&lt;boost::units::absolute&lt; boost::units::unit&lt; Dim, System &gt; &gt;, boost::lambda::lambda_functor&lt; Arg &gt;&gt; Home Libraries Peo..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109606320.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109606320.html"
+}
+item {
+  title: "Revision History"
+  desc: "3 / Boost 1.53                Fixed some 64-to-32-bit conversion warnings (#7459).                    Fixed some small errors in documentation and comments (..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/history.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/history.html"
+}
+item {
+  title: "Tutorial"
+  desc: " Tutorial Home Libraries People FAQ More Tutorial Basic Usage Advanced Topics Basic Usage A discriminated union container on some set of types is defined by ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/variant/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/variant/tutorial.html"
+}
+item {
+  title: "The Boost C++ Libraries BoostBook Documentation Subset"
+  desc: " The Boost C++ Libraries BoostBook Documentation Subset Home Libraries People FAQ More The Boost C++ Libraries BoostBook Documentation Subset Table of Conten..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/index.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/index.html"
+}
+item {
+  title: "Macro BOOST_PROTO_LOCAL_ITERATE"
+  desc: " Macro BOOST_PROTO_LOCAL_ITERATE Home Libraries People FAQ More Macro BOOST_PROTO_LOCAL_ITERATE BOOST_PROTO_LOCAL_ITERATE  Vertical repetition of a user-supp..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/BOOST_PROTO_LOCAL_ITERATE.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/BOOST_PROTO_LOCAL_ITERATE.html"
+}
+item {
+  title: "Tutorial"
+  desc: " Compatibility Note Boost.Signals has two syntactical forms: the preferred form and the compatibility form. The preferred form fits more closely with the C++..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/signals/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Header &lt;boost/program_options/cmdline.hpp&gt; Header &lt;boost/program_options/config.hpp&gt; Header &lt;boost/progra..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/program_options/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/program_options/reference.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: " let\'s see how can we do this using Boost.Interprocess:          Header           To manage shared memory, you just need to include the following header:    ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Class template map"
+  desc: " Class template map Home Libraries People FAQ More Class template map boost::container::map Synopsis // In header: &lt;boost/container/map.hpp&gt; template&lt;typenam..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/map.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/map.html"
+}
+item {
+  title: "Chapter 7. Boost.Container"
+  desc: " Boost.Container Home Libraries People FAQ More Chapter 7. Boost.Container Ion Gaztanaga Copyright  2009-2012 Ion       Gaztanaga         Distributed under t..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/container.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/container.html"
+}
+item {
+  title: "Details"
+  desc: " You can find more information at: Boost Wiki GDTL Start Page.         Date References Time References Other C/C++ Libraries JAVA Date-Time Libraries Scripti..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/details.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/date_time/details.html"
+}
+item {
+  title: "Reference"
+  desc: " Reference Home Libraries People FAQ More Reference Concepts Header &lt;boost/variant.hpp&gt; Header &lt;boost/variant/variant_fwd.hpp&gt; Header &lt;boost/variant/variant...."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/variant/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/variant/reference.html"
+}
+item {
+  title: "How the library works"
+  desc: " How the library works Home Libraries People FAQ More How the library works       Boost.Move is based on macros that are expanded       to true rvalue refere..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/move/how_the_library_works.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/move/how_the_library_works.html"
+}
+item {
+  title: "Python Bindings"
+  desc: " Python Bindings Home Libraries People FAQ More Python Bindings Quickstart Transmitting User-Defined Data Collectives Skeleton/Content Mechanism C++/Python M..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi/python.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/mpi/python.html"
+}
+item {
+  title: "buffer"
+  desc: " buffer Home Libraries People FAQ More buffer           The boost::asio::buffer function is used to create a buffer         object to represent raw memory, a..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/reference/buffer.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/reference/buffer.html"
+}
+item {
+  title: "Other considerations and tips"
+  desc: "                The emulation mode can be forced on the compilers that don\'t use it by default         by defining the BOOST_TYPEOF_COMPLIANT         symbol:..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/typeof/other.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/typeof/other.html"
+}
+item {
+  title: "Class template flat_map"
+  desc: " Class template flat_map Home Libraries People FAQ More Class template flat_map boost::container::flat_map Synopsis // In header: &lt;boost/container/flat_map.h..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/flat_map.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/flat_map.html"
+}
+item {
+  title: "Class template flat_multimap"
+  desc: " Class template flat_multimap Home Libraries People FAQ More Class template flat_multimap boost::container::flat_multimap Synopsis // In header: &lt;boost/conta..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/flat_multimap.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/flat_multimap.html"
+}
+item {
+  title: "Class template multimap"
+  desc: " Class template multimap Home Libraries People FAQ More Class template multimap boost::container::multimap Synopsis // In header: &lt;boost/container/map.hpp&gt; t..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/multimap.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/container/multimap.html"
+}
+item {
+  title: "Customizing Boost.Interprocess"
+  desc: " Customizing Boost.Interprocess Home Libraries People FAQ More Customizing Boost.Interprocess Writing       a new shared memory allocation algorithm Building..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/customizing_interprocess.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/customizing_interprocess.html"
+}
+item {
+  title: "Chapter 29. Boost String Algorithms Library"
+  desc: " Boost String Algorithms Library Home Libraries People FAQ More Chapter 29. Boost String Algorithms Library Pavol Droba Copyright  2002-2004 Pavol Droba Use,..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/string_algo.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/string_algo.html"
+}
+item {
+  title: "Extensibility"
+  desc: " Extensibility Home Libraries People FAQ More Extensibility       If we want to use BOOST_FOREACH to iterate over some new       collection type, we must &quot;te..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/foreach/extensibility.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/foreach/extensibility.html"
+}
+item {
+  title: "Appendices"
+  desc: "53            Deprecated:                        The chrono i/o version included in Boost.Chrono 1.2.x has been completly               refactored in version..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/chrono/appendices.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/chrono/appendices.html"
+}
+item {
+  title: "Macro BOOST_PROTO_REPEAT_FROM_TO"
+  desc: " Macro BOOST_PROTO_REPEAT_FROM_TO Home Libraries People FAQ More Macro BOOST_PROTO_REPEAT_FROM_TO BOOST_PROTO_REPEAT_FROM_TO  Repeatedly invoke the specified..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/BOOST_PROTO_REPEAT_FROM_TO.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/BOOST_PROTO_REPEAT_FROM_TO.html"
+}
+item {
+  title: "Struct template multiply_typeof_helper<boost::lambda::lambda_functor< Arg >, boost::units::unit< Dim, System >>"
+  desc: " Struct template multiply_typeof_helper&lt;boost::lambda::lambda_functor&lt; Arg &gt;, boost::units::unit&lt; Dim, System &gt;&gt; Home Libraries People FAQ More Struct templa..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109598480.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109598480.html"
+}
+item {
+  title: "Struct template divide_typeof_helper<boost::units::unit< Dim, System >, boost::lambda::lambda_functor< Arg >>"
+  desc: " Struct template divide_typeof_helper&lt;boost::units::unit&lt; Dim, System &gt;, boost::lambda::lambda_functor&lt; Arg &gt;&gt; Home Libraries People FAQ More Struct template..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/divide_typeof_idp109595952.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/divide_typeof_idp109595952.html"
+}
+item {
+  title: "Struct template multiply_typeof_helper<boost::units::unit< Dim, System >, boost::lambda::lambda_functor< Arg >>"
+  desc: " Struct template multiply_typeof_helper&lt;boost::units::unit&lt; Dim, System &gt;, boost::lambda::lambda_functor&lt; Arg &gt;&gt; Home Libraries People FAQ More Struct templa..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109593408.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/multiply_type_idp109593408.html"
+}
+item {
+  title: "Struct template divide_typeof_helper<boost::lambda::lambda_functor< Arg >, boost::units::unit< Dim, System >>"
+  desc: " Struct template divide_typeof_helper&lt;boost::lambda::lambda_functor&lt; Arg &gt;, boost::units::unit&lt; Dim, System &gt;&gt; Home Libraries People FAQ More Struct template..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/units/divide_typeof_idp109601008.html"
+  jum
+I0125 22:13:45.375973 31646 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548425625
+query: "123"

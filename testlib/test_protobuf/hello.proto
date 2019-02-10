@@ -1,0 +1,6 @@
+syntax="proto2";
+
+message Hello {
+  required string name = 1; //名字必须存在，必须只有一个
+  required int32 score = 2; //32-4 64-4 16-2
+};

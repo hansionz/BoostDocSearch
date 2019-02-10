@@ -1,0 +1,1013 @@
+Log file created at: 2019/01/25 19:47:11
+Running on machine: localhost.localdomain
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0125 19:47:11.162793 27240 server_main.cc:51] Index Load Done
+I0125 19:47:58.868208 27243 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548416878
+query: ""
+I0125 19:47:58.869527 27243 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548416878
+I0125 19:48:42.712821 27246 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548416922
+query: ""
+I0125 19:48:42.714551 27246 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548416922
+I0125 19:49:33.725309 27245 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548416973
+query: "filesystem"
+I0125 19:49:33.737934 27245 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548416973
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 19:50:52.551972 27243 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548417052
+query: "filesystem"
+I0125 19:50:52.552340 27243 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548417052
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 20:11:19.352111 27243 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548418279
+query: "filesystem"
+I0125 20:11:19.353618 27243 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548418279
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 20:11:22.168310 27245 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548418281
+query: "filesystem"
+I0125 20:11:22.168593 27245 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548418282
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 20:11:23.999784 27245 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548418283
+query: "filesystem"
+I0125 20:11:24.000000 27245 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548418283
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 20:14:55.093217 27245 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548418494
+query: "filesystem"
+I0125 20:14:55.093430 27245 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548418495
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 20:14:56.632076 27245 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548418496
+query: "filesystem"
+I0125 20:14:56.632306 27245 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548418496
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 20:17:20.492997 27245 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548418640
+query: "filesystem"
+I0125 20:17:20.493250 27245 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548418640
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 20:17:22.544459 27245 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548418642
+query: "filesystem"
+I0125 20:17:22.544589 27245 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548418642
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 20:19:03.435286 27245 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548418743
+query: "filesystem"
+I0125 20:19:03.435747 27245 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548418743
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 20:20:20.833744 27245 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548418820
+query: "filesystem"
+I0125 20:20:20.833938 27245 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548418820
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 20:28:15.434402 27245 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548419295
+query: "filesystem"
+I0125 20:28:15.434687 27245 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548419295
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 20:28:18.591163 27245 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548419298
+query: ""
+I0125 20:28:18.591228 27245 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548419298
+I0125 20:33:38.239910 27246 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548419617
+query: "filesystem"
+I0125 20:33:38.242178 27246 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548419618
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}
+I0125 20:45:09.467847 27244 doc_searcher.cc:183] [Request]sid: 0
+timestamp: 1548420309
+query: "filesystem"
+I0125 20:45:09.468221 27244 doc_searcher.cc:184] [Response]sid: 0
+timestamp: 1548420309
+item {
+  title: "Some basic explanations"
+  desc: "                        Filesystem-persistence: The mechanism             exists until the mechanism is explicitly deleted.                    Some native PO..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/some_basic_explanations.html"
+}
+item {
+  title: "Sharing memory between processes"
+  desc: "           As shared memory has kernel or filesystem persistence, the user must explicitly           destroy it. The remove           operation might fail re..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/sharedmemorybetweenprocesses.html"
+}
+item {
+  title: "Acknowledgements, notes and links"
+  desc: " reverting to filesystem persistence             shared memory. Boost 1.50 fixed those issues and recovered bootup time             directory and kernel pers..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/acknowledgements_notes.html"
+}
+item {
+  title: "Tutorial"
+  desc: " if /boost/filesystem//fs should be         linked to all applications in your project, you can add         &lt;library&gt;/boost/filesystem//fs to the project\'s  ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/tutorial.html"
+}
+item {
+  title: "Reference"
+  desc: " then         in its parent and so forth up to the filesystem root, and finally         in the directories specified by the environment variable         BOOS..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/reference.html"
+}
+item {
+  title: "Change Log"
+  desc: "                    Use filesystem 3. Remove cygwin 1.5 support.                Boost 1.46.1:                Work around optimization bug in g++ 4.4 on 64 bi..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/quickbook/change_log.html"
+}
+item {
+  title: "Managed Memory Segments"
+  desc: " To remove the file from the filesystem you could use standard           C std::remove or Boost.Filesystem\'s           remove()           functions, but file..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/managed_memory_segments.html"
+}
+item {
+  title: "Language"
+  desc: "        Binding Detection           Whenever a target is bound to a location in the filesystem, Boost Jam will           look for a variable called BINDRULE ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/jam/language.html"
+}
+item {
+  title: "Overview"
+  desc: "         unrelated to filesystem, such as &quot;boost/thread&quot;. Target references make use of project ids to         specify a target. Source location specifies th..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/bbv2/overview.html"
+}
+item {
+  title: "Class random_device"
+  desc: " token is interpreted as a filesystem path. It is assumed that this path denotes an operating system pseudo-device which generates a stream of non-determinis..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/boost/random/random_device.html"
+}
+item {
+  title: "Architecture and internals"
+  desc: "Interprocess             has chosen kernel or filesystem persistence for shared memory and named             synchronization mechanisms. Process persistence ..."
+  show_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+  jump_url: "https://www.boost.org/doc/libs/1_53_0/doc/html/interprocess/architecture.html"
+}

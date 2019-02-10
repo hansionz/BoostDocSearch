@@ -1,0 +1,44 @@
+syntax="proto2";
+
+package doc_index_proto;
+//相当于命名空间,防止名字冲突
+
+// Pair描述了分词时的每个关键词的前后偏移量
+// 采用cppjieba中的CutForSearch Word With Offset
+message Pair {
+  required int32 beg = 1;
+  required int32 end = 2;
+};
+
+// 正排索引信息
+message DocInfo {
+  required uint64 doc_id = 1;     // 文档id
+  required string title = 2;      // 标题
+  required string content = 3;    // 正文
+  required string jump_url = 4;   // 跳转url
+  required string show_url = 5;   // 展示url
+  repeated Pair title_token = 6;  // 保存标题分词结果
+  repeated Pair content_token = 7;// 保存正文分词结果
+};
+
+// 该词在该文档中的权重信息
+message Weight {
+  required uint64 doc_id = 1;    // 文档id
+  required int32 weight = 2;     // 权重
+  required int32 title_cnt = 3;  // 在标题中出现的次数
+  required int32 content_cnt = 4;// 在正文中出现的次数
+  required int32 first_pos = 5;  //该词第一次在文档中出现的位置,主要是为了生成摘要
+};
+
+// 倒排索引信息
+message KwdInfo {
+  required string key = 1;   // 关键词
+  repeated Weight weight = 2;// 倒排拉链
+};
+
+// 索引模块
+message Index {
+  //repeated表示后边的词重复出现若干次,相当于数组
+  repeated DocInfo forward_index = 1; //正排索引
+  repeated KwdInfo inverted_index = 2;//倒排索引
+};

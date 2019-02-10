@@ -1,0 +1,4 @@
+Log file created at: 2019/01/25 09:28:49
+Running on machine: localhost.localdomain
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0125 09:28:49.461506  4029 index.cc:92] SplitTitle fail!
