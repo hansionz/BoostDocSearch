@@ -30,8 +30,5 @@
 * gflags使用说明:
   https://www.cnblogs.com/SarahLiu/p/7121385.html
 
-* glog使用说明:
-  https://www.cnblogs.com/qiumingcheng/p/8182771.html
-
 * cppjieba分词使用说明:(官方文档)
   https://github.com/yanyiwu/cppjieba/blob/master/test/demo.cpp
