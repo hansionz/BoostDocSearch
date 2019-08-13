@@ -21,14 +21,4 @@
 
 **注:CGI程序和搜索服务器的通信借助于baidu-sofa实现，隐藏网络通信的细节.**
 
-### 项目使用的第三方库
-
-* protobuf使用说明:
-  https://www.cnblogs.com/yinheyi/p/6080244.html
-	https://developers.google.com/protocol-buffers
-
-* gflags使用说明:
-  https://www.cnblogs.com/SarahLiu/p/7121385.html
-
-* cppjieba分词使用说明:(官方文档)
-  https://github.com/yanyiwu/cppjieba/blob/master/test/demo.cpp
+详细介绍:https://blog.csdn.net/hansionz/article/details/86634519
